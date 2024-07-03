@@ -1,0 +1,6 @@
+__pycache__/
+tttsgpt2/
+TTTSTokenizer/
+*.wav
+*.bin
+log.txt

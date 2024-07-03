@@ -29,3 +29,5 @@ Test environment: V100, single GPU, generating 48 tokens, using greedy search, b
 ![time compare](res/time.png)
 
 The image above uses milliseconds as the unit of measurement. When leveraging the `io_binding` feature, ORT (short for ONNX Runtime) achieves fast GPU-based inference speeds.
+
+For the converted onnx models and saved `AutoModel`, visit [OpenT2S/Tortoise-TTS-onnx-infer on Hugging Face](https://huggingface.co/OpenT2S/Tortoise-TTS-onnx-infer).

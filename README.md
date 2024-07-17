@@ -10,6 +10,12 @@ We only convert the GPT2 module to ONNX, while other modules still use PyTorch f
 
 See [run.sh](./run.sh) for running the example.
 
+## Update
+
+1. GGUF inference 2024/07/17
+GGUF model conversion is now supported. See [convert_hf_to_gguf.py](./convert_hf_to_gguf.py) and [run.sh](./run.sh) for more details.
+For information on how to perform inference with the GGUF model, please refer to the [tortoise.cpp repository](https://github.com/balisujohn/tortoise.cpp).
+
 ## Prefill and Decode Models
 
 The GPT2 module in Tortoise-TTS cannot be exported into a single model due to significant differences in the input process between the two stages (prefill and decode). This project exports it into two independent models: prefill and decode models.

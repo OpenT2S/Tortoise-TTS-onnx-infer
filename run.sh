@@ -11,6 +11,9 @@ export PYTHONPATH=$PYTHONPATH:$(pwd)/tortoise-tts/
 # extract GPT2 and save as AutoModel. default save path: tttsgpt2
 python convert.py
 
+# [GGUF] Convert AutoModel to GGUF for tortoise.cpp inference (optional)
+python convert_hf_to_gguf.py --model_save_dir tttsgpt2 --fname_out ggml-model.bin
+
 # make sure AutoModel output is the same to the original
 python test.py 
 

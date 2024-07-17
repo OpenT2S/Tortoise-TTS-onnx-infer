@@ -13,6 +13,7 @@ See [run.sh](./run.sh) for running the example.
 ## Update
 
 1. GGUF inference 2024/07/17
+
 GGUF model conversion is now supported. See [convert_hf_to_gguf.py](./convert_hf_to_gguf.py) and [run.sh](./run.sh) for more details.
 For information on how to perform inference with the GGUF model, please refer to the [tortoise.cpp repository](https://github.com/balisujohn/tortoise.cpp).
 
